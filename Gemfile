@@ -4,12 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 
 group :production do
-  ruby "2.1.5"
+  ruby '2.1.5'
   gem 'pg'
 end
 group :development do
-  # Use sqlite3 as the database on nitrous.io
-  ruby "2.1.1"
+  ruby '2.1.1'
   gem 'sqlite3'
 end 
 
