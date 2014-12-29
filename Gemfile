@@ -1,6 +1,5 @@
-ruby "2.1.5"
 source 'https://rubygems.org'
-
+ruby "2.1.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -12,6 +11,8 @@ group :development do
   # Use sqlite3 as the database on nitrous.io
   gem 'sqlite3'
 end 
+
+gem 'rails_12factor'
 
   # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
