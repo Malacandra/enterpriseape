@@ -9,6 +9,7 @@ group :production do
 end
 group :development do
   # Use sqlite3 as the database on nitrous.io
+  ruby "2.1.1"
   gem 'sqlite3'
 end 
 
